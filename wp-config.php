@@ -20,7 +20,7 @@
 
 // ** Configurações do banco de dados - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', 'cursoemvideowp' );
+define( 'DB_NAME', 'wordpress' );
 
 /** Usuário do banco de dados MySQL */
 define( 'DB_USER', 'root' );
@@ -50,14 +50,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '=l_6rop+}WpS+}l(J!([45)-,CsGXHcW_&ur:1e$U!ZC}$M(kO[R}?w9*o:^r_qm' );
-define( 'SECURE_AUTH_KEY',  '}f:eIG3+tk4a!1ep78tohX#aUB;A^*C(,?r*9IR?eH>Ae+tnMmV#`~Em)9=eUW]F' );
-define( 'LOGGED_IN_KEY',    'yztE-dHXDER=C$lIUo&lXn+@h8FK2@9SG:76c)9]g$T)_Hib/f$zd*,?i6Ew+6VP' );
-define( 'NONCE_KEY',        'u~ioun81*o7:;GGtKr`)Yxr%d`{)A~lM8{Ek9CsZ| $!51LL7Mrr~!~+h<?7*lFc' );
-define( 'AUTH_SALT',        '{wujp,Hg3+93{:tb%2Gi/0zfg;DF#Gqw_>7~{ m>X5sUAj{MH:{,]*fw qAbJJ3@' );
-define( 'SECURE_AUTH_SALT', 'e2OD8XK#.OoxC3JaheF9x<+}55q]c~>nk$Enr6hU]u7(N=LgM}ZmfQNB|Q,h2yWq' );
-define( 'LOGGED_IN_SALT',   '5- x>9o(W6B*3L@$@9?-V)eJLK,2)<mZ0ZEWXL:3_uvjQ]}zO<vBTXb//cJA$.j ' );
-define( 'NONCE_SALT',       '(}K;?SFPb(!yNOA#QroU1t??+LUR;}p!$8@5;#LheF^a3HnslO4/Lfy`PD*r0jY&' );
+define( 'AUTH_KEY',         'YW]VN/d(g9R+k&j;:&i lIbKC|a>bX9So^(2ulobLv;rv;?%K/s7bRke@KaoxN/s' );
+define( 'SECURE_AUTH_KEY',  'mRR}h3dF<!r|X%74uHe!yz@P.}R/|DVH=?A~k1bT{!:?BOjizhEDh(2=)r12%}_A' );
+define( 'LOGGED_IN_KEY',    '`f1vS$g.0N3^6GOfBc&.!AhFbRVlre=q#/ek]d/tp6z3#qgi[ o-;m|~#y+?Q%ig' );
+define( 'NONCE_KEY',        ';;P4~Hd5_c!{(K#q3OFY*c!lu^|R7lZI4Di{`I# ](q>/,g-{$cci=h$RIdP|=Ka' );
+define( 'AUTH_SALT',        '!D$dId+YEm0}!1^WHL|^Ee2JC8PIZqo^zjihJ?<bC890?TIov9lX<]DJjUVzO=Gq' );
+define( 'SECURE_AUTH_SALT', 'S]sx#7<{@v Spvr[}k6=NXey=^X9hZhU|q`vEI}C6Xx9Q5EE;12Tq<n9n1_ mi6j' );
+define( 'LOGGED_IN_SALT',   'vl9qcnmLi?9@&[_sUNqFeMj+J`OBCyALu`ww^APk3Q/8;q~cOE<XEx]&a@p]sMqc' );
+define( 'NONCE_SALT',       ']76SYyJ_Dm9 b/LYm^^/Q$G&nK@Z;hp2*Ef023;l*O(V.U-D}NJVvPLq<ocY9]V)' );
 
 /**#@-*/
 
@@ -67,7 +67,7 @@ define( 'NONCE_SALT',       '(}K;?SFPb(!yNOA#QroU1t??+LUR;}p!$8@5;#LheF^a3HnslO4
  * Você pode ter várias instalações em um único banco de dados se você der
  * um prefixo único para cada um. Somente números, letras e sublinhados!
  */
-$table_prefix = 'cev_';
+$table_prefix = 'wp_';
 
 /**
  * Para desenvolvedores: Modo de debug do WordPress.
